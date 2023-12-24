@@ -3,7 +3,7 @@ pipeline {
     stages {
       stage(build) {
         steps {
-          echo "the branch 2 is building"
+          echo "the branch 2 is building in multibranch pipeline"
         }
       }
   }
