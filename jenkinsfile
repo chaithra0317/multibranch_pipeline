@@ -4,6 +4,7 @@ pipeline {
       stage(build) {
         steps {
           echo "the branch--1 is building"
+          echo "checking webhook trigger"
         }
       }
   }
