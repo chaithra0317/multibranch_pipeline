@@ -3,7 +3,7 @@ pipeline {
     stages {
       stage(build) {
         steps {
-          echo "the branch-3 is building"
+          echo "the branch-3 is triggered"
         }
       }
   }
